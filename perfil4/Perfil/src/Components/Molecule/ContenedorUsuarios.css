@@ -1,0 +1,107 @@
+.contenedor-usuarios {
+    background-color: #C5C5C5;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contenedor-usuarios h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.contenedor-usuarios p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.linea-corta {
+    border-top: 1px dashed #ccc;
+    margin: 20px 0;
+}
+
+.grupo-usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grupo-usuario h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.boton-editar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.modal-contenido {
+    background-color: #C5C5C5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%; /* Ancho del modal */
+    max-height: 80%; /* Altura máxima del modal */
+    overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido es demasiado largo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.barra-busqueda input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.boton-agregar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lista-personas li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borde alrededor de cada nombre */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    position: relative; /* Asegura que el icono se posicione correctamente */
+}
+
+.lista-personas li::after {
+    content: '\2716'; /* Código del carácter de la 'X' para el icono de eliminado */
+    position: absolute; /* Posición absoluta para que esté al final del nombre */
+    right: 10px; /* Ajusta el espacio desde el borde derecho */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Alinea verticalmente */
+    color: red; /* Color del icono */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}

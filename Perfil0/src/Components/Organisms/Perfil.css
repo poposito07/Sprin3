@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    width: 100%;
+    height: 200vh;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.body-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+
+.container-left{
+    width: 30%;
+    height: 50vh;
+    margin-top: 10px;
+    margin-right: 68%;
+    background-color: #f3f3f3;
+}
+
+.container-pefil{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.container-info{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2%;
+}
+
+.info-left{
+    width: 40%;
+    height: 90%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+
+.text{
+    margin: 5px;
+    margin-left: 4%;
+}
+
+.text2{
+    margin: 5px;
+    margin-left: 13%;
+}
+
+.container-intereses{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+.container-Lista{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.Lista{
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 2%;
+}
+
+
+.margin0{
+    margin: 0;
+}
+
+.margin1{
+    width: 100%;
+    margin: 0;
+}
+
+a{
+    margin-left: 45%;
+    color: gray;
+}
+
+
+.body-right{
+    width: 25%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alineado a la derecha */
+    align-items: center;
+    margin-left: auto; /* Agregar un margen izquierdo automático */
+}
+
+
+
+.container{
+    width: 90%;
+    height: 90%;
+    background-color: #d3d3d3;
+    padding: 3%;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    margin-bottom: 25px;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    width: 100%;
+  }
+  

@@ -1,0 +1,179 @@
+.contenedor {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.encabezado h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="tel"] {
+    width: calc(50% - 10px);
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-boton {
+    position: relative;
+}
+
+.botones-intereses {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.botones-intereses button {
+    background-color: #C5C5C5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px; /* Ajusta el valor según la separación deseada */
+
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+}
+
+.icono-red-social {
+    margin-right: 5px;
+}
+
+.campo input[type="file"] {
+    display: none;
+}
+
+.contenedor-imagen {
+    position: relative;
+}
+
+.imagen-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#seleccionar-archivo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.campo button {
+    background-color: #C5C5C5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.linea {
+    border-top: 1px dashed #ccc;
+    margin: 20px 0;
+}
+
+.boton-guardar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Estilos para el input de Nombre */
+.campo input[type="text"]#nombre {
+    width: calc(95% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el input de Correo Electrónico */
+.campo input[type="email"]#correo {
+    width: calc(95% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el input de ID de Estudiante */
+.campo input[type="text"]#id-estudiante {
+    width: calc(95% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el input de Teléfono */
+.campo input[type="tel"]#telefono {
+    width: calc(95% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el input de Intereses */
+.campo input[type="text"]#intereses {
+    width: calc(95% - 10px);
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el input de Instagram */
+.campo input[type="text"]#instagram {
+    width: calc(40% - 30px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el input de Facebook */
+.campo input[type="text"]#facebook {
+    width: calc(40% - 30px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el input de Twitter */
+.campo input[type="text"]#twitter {
+    width: calc(40% - 30px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

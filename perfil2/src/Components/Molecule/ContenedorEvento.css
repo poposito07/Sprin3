@@ -1,0 +1,79 @@
+.contenedor-evento {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 45%;
+    margin: 20px auto; /* Centra horizontalmente el contenedor */
+    margin-left: 20px; /* Mueve el contenedor hacia la izquierda */
+
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.encabezado h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.formulario {
+    margin-top: 10px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.campo input {
+    width: calc(70% - 1px); /* 80% del ancho del contenedor menos 1px */
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para agrupar los inputs de fecha de inicio y hora de inicio */
+.campo-grupo1 {
+    display: inline-block;
+    width: calc(40% - 2px); /* 50% del ancho del contenedor menos un pequeño espacio */
+    margin-right: 10px; /* Espacio entre los inputs */
+}
+
+/* Estilos para agrupar los inputs de fecha de fin y hora de fin */
+.campo-grupo2 {
+    display: inline-block;
+    width: calc(40% - 50px); /* 50% del ancho del contenedor menos un pequeño espacio */
+}
+
+/* Estilos para los inputs de fecha de inicio, hora de inicio, fecha de fin y hora de fin */
+.campo-grupo1 input,
+.campo-grupo2 input {
+    width: calc(80% - 1px); /* 100% del ancho del contenedor menos un pequeño espacio */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton-publicar {
+    text-align: center;
+}
+
+.boton-publicar button {
+    background-color: #C5C5C5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-publicar button:hover {
+    background-color: #C5C5C5;
+}

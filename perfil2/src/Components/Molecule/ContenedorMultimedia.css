@@ -1,0 +1,77 @@
+.contenedor-principal {
+    flex-direction: column;
+    align-items: center;
+    background-color: #C5c5c5;
+    width: 45%;
+    height: 300px; /* Altura del contenedor blanco */
+    margin: 20px auto; /* Centra horizontalmente el contenedor */
+    
+}
+
+.encabezado {
+    margin-top: 10px;
+    margin-right: 24px; /* Mueve el encabezado 20px hacia la derecha */
+}
+
+.encabezado h2 {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5px;
+    margin-right: -20px; /* Mueve el encabezado 20px hacia la derecha */
+
+}
+
+.contenido {
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la imagen de perfil */
+.imagen-perfil {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 25px; /* Ajusta este valor según sea necesario para mover la imagen */
+    margin-top: 25px;
+}
+
+.contenido {
+    display: flex;
+    align-items: flex-start; /* Alinear elementos al inicio verticalmente */
+}
+
+
+.contenedor-blanco {
+    background-color: #FFFF;
+    padding: 20px; /* Incrementa el relleno */
+    width: 480px; /* Ancho del contenedor blanco */
+    height: 150px; /* Altura del contenedor blanco */
+    border-radius: 10px; /* Ajusta el radio de los bordes */
+    margin: 20px 50px; /* Centra horizontalmente el contenedor dentro del contenedor principal y ajusta el margen derecho */
+}
+
+.contenedor-blanco p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Estilos para los botones */
+.boton-publico, .boton-multimedia {
+    background-color: #9a8989;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-publico {
+    margin-right: 100px; /* Añade un margen derecho al primer botón */
+}
+
+/* Estilos para el contenedor de los botones */
+.botones {
+    margin-top: 165px;
+    text-align: center;
+}

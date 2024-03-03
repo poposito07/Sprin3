@@ -1,0 +1,52 @@
+/* Estilos para el contenedor de los botones */
+.contenedor-botones-configuracion {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -700px; /* Mover hacia arriba */
+    margin-left: 58%; /* Mover hacia la derecha */
+    transform: translateX(-1%); /* Centrar horizontalmente */
+    width: 25%;
+}
+
+/* Estilos para el texto de configuración */
+.texto-configuracion {
+    text-align: center;
+}
+
+.texto-configuracion h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Estilos para los botones de configuración */
+.botones-configuracion {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones-configuracion button {
+    background-color: #C5C5C5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Espacio entre botones */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar de color de fondo */
+
+}
+
+
+
+/* Estilos para cambiar el color de fondo al pasar el cursor sobre los botones */
+.botones-configuracion button:hover {
+    background-color: #999; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para el último botón */
+.botones-configuracion button:last-child {
+    margin-bottom: 10px; /* Margen inferior para el último botón */
+}

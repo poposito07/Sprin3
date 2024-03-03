@@ -1,0 +1,43 @@
+/* Estilos para el contenedor de los botones */
+.contenedor-botones-cd {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px; /* Mover hacia arriba */
+    margin-left: 72%; /* Mover hacia la derecha */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    width: 20%;
+}
+
+.texto-cd {
+    text-align: center;
+    margin-bottom: 20px; /* Espacio inferior para separar el texto de los botones */
+}
+
+.texto-cd h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.botones-cd {
+    display: flex;
+    flex-direction: column; /* Alinear los elementos en una columna */
+    align-items: center; /* Centrar horizontalmente */
+}
+
+/* Estilos para cada botón */
+.botones-cd button {
+    background-color: #C5C5C5; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar de color de fondo */
+    margin-bottom: 10px; /* Espacio entre los botones */
+}
+
+/* Cambiar el color de fondo al pasar el ratón */
+.botones-cd button:hover {
+    background-color: #8b8888;
+}

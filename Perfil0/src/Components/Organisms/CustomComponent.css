@@ -1,0 +1,79 @@
+.contenedor-boton {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    background-color: #808080; /* Cambia este valor al tono de gris que prefieras */
+    width: 46%; /* Tamaño más pequeño */
+    margin-left: 27%; /* Mover hacia la derecha */
+    margin-top: -100%; /* Ajustar la posición vertical */
+    position: relative; /* Agregado para el posicionamiento absoluto de la imagen */
+}
+
+.contenedor-imagen {
+    position: absolute; /* Agregado para posicionar la imagen */
+    top: 0; /* La imagen estará en la esquina superior */
+    left: 0; /* La imagen estará en la esquina izquierda */
+}
+
+.imagen-perfil {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.contenedor-busqueda {
+    display: flex;
+    align-items: center;
+    margin-left: 100px; /* Ajuste de la posición de la barra de búsqueda */
+    margin-top: 10px; /* Ajuste de la posición vertical */
+}
+
+.barra-busqueda {
+    flex-grow: 1; /* Para que ocupe todo el espacio disponible */
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(255, 253, 253);
+    color: rgb(14, 13, 13);
+}
+
+.contenedor-botones {
+    display: flex;
+    margin-top: 10px; /* Espacio entre la barra de búsqueda y los botones */
+}
+
+.boton-gris {
+    background-color: #dcdbdb;
+    color: #272626;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-right: -22%; /* Eliminar completamente el espacio entre los botones */
+    margin-top: 0px; /* Espacio entre la barra de búsqueda y los botones */
+    margin-left: 33%; /* Mover los botones hacia la derecha */
+}
+
+.contenedor-segundo {
+    margin-top: 20px; /* Espacio entre el primer y segundo contenedor */
+    background-color: #808080; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+}
+
+.contenedor-segundo .contenedor-imagen {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Arriba */
+    left: 0; /* Izquierda */
+}
+
+.contenedor-segundo .imagen-perfil {
+    width: 50px; /* Ancho de la imagen */
+    height: 50px; /* Alto de la imagen */
+    border-radius: 50%; /* Borde redondeado para hacerla circular */
+}
+
+.contenedor-segundo .contenedor-imagen-pequena {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.contenedor-segundo .texto-pequeno {
+    margin-top: 5px; /* Espacio entre los elementos de texto */
+}
